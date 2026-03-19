@@ -1,0 +1,1500 @@
+[
+    {
+        "description": "",
+        "name": "1 pieza",
+        "price1": 140,
+        "price2": 45,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "2 piezas",
+        "price1": 180,
+        "price2": 70,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "3 o + piezas",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Muelles",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Otros (tirantes, barras estabilizadoras, etc)",
+        "price1": 150,
+        "price2": 45,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas o neumáticos",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Solo separadores",
+        "price1": 110,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas + neumáticos + separadores",
+        "price1": 130,
+        "price2": 45,
+        "price3": 35,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Volante o piña",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "steering-wheel",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución asientos delanteros",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "seats",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Eliminación plazas",
+        "price1": 130,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "places",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Barras seguridad",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "interior-fittings",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Relojes, alisado interior puerta, etc",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "interior-fittings",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape",
+        "price1": 180,
+        "price2": 60,
+        "price3": 40,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape + caja cambios",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución o adición de faros delanteros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución o adición de faros traseros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo anterior al año 98",
+        "price1": 180,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Discos y/o latiguillos",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "brakes",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "1 pieza",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Muelles",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sólo tacos muelles/ballestas",
+        "price1": 140,
+        "price2": 30,
+        "price3": 25,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "supplements",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Volante o piña",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "steering-wheel",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Liberadores",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "free-wheels",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas o neumáticos",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Barras seguridad",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "interior-fittings",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape",
+        "price1": 180,
+        "price2": 60,
+        "price3": 35,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Cambio clasificación",
+        "price1": 120,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "classification",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Equipamiento básico (1 ó 2 módulos)",
+        "price1": 180,
+        "price2": 60,
+        "price3": 50,
+        "price4": 40,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "furniture",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Instalación asiento trasero",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "back-seats",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Base giratoria",
+        "price1": 130,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "spinners",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Eliminación de asientos traseros",
+        "price1": 130,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "back-seats",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Techo elevable",
+        "price1": 210,
+        "price2": 50,
+        "price3": 35,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "ceiling",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "1 claraboya/ventana",
+        "price1": 120,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "windows",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Placa solar/regulador/batería",
+        "price1": 150,
+        "price2": 50,
+        "price3": 35,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "electrical-installation12",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Tomas interna/externa",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "electrical-installation230",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Depósito interior/exterior",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "water-installation",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Calefacción interior/exterior",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "heating",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Portamatrículas",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "license-holder",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "1 pieza",
+        "price1": 140,
+        "price2": 45,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Horquilla delantera sin freno",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas o neumáticos",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Manillar",
+        "price1": 130,
+        "price2": 35,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "handle-bar",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución asiento (no anclado)",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "seats",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Recorte subchasis",
+        "price1": 180,
+        "price2": 50,
+        "price3": 40,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motorbike-places",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución faros (1 ó 2)",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape",
+        "price1": 180,
+        "price2": 60,
+        "price3": 40,
+        "price4": 30,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Discos y/o latiguillos",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "brakes",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Faros delanteros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución asientos delanteros",
+        "price1": 160,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "seats",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Eliminación plazas traseras",
+        "price1": 130,
+        "price2": 35,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "places",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo anterior al año 98",
+        "price1": 180,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sólo discos y/o latiguillos",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "brakes",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución asientos delanteros",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "front-seats",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Suspensión neumática",
+        "price1": 210,
+        "price2": 60,
+        "price3": 45,
+        "price4": 35,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "caravan-suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "1 pieza",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Muelles",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sólo tacos muelles/ballestas",
+        "price1": 140,
+        "price2": 30,
+        "price3": 25,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "supplements",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas o neumáticos",
+        "price1": 120,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape",
+        "price1": 180,
+        "price2": 60,
+        "price3": 35,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución o adición de faros delanteros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo anterior al año 98",
+        "price1": 180,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Discos y/o latiguillos",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "brakes",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Faros delanteros y traseros",
+        "price1": 140,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo posterior al año 98",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "car"
+        }
+    },
+    {
+        "description": "",
+        "name": "2 piezas",
+        "price1": 190,
+        "price2": 70,
+        "price3": 40,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "3 o + piezas",
+        "price1": 220,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Ballestas / gemelas / tacos",
+        "price1": 180,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Otros (tirantes, barras estabilizadoras, etc)",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Todo (muelles + ballestas + gemelas + trapecios)",
+        "price1": 195,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sólo separadores",
+        "price1": 110,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas + neumáticos + separadores",
+        "price1": 130,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Faros traseros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Faros traseros y delanteros",
+        "price1": 140,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Amortiguador de dirección",
+        "price1": 130,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "steering-wheel",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Amortiguador + volante y/o piña",
+        "price1": 180,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "steering-wheel",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Relojes, alisado interior puerta, etc",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "interior-fittings",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape + caja cambios",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo posterior al año 98",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "a-terrain"
+        }
+    },
+    {
+        "description": "",
+        "name": "Equipamiento completo",
+        "price1": 240,
+        "price2": 80,
+        "price3": 60,
+        "price4": 50,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "furniture",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "2 claraboyas/ventanas",
+        "price1": 140,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "windows",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Más de dos",
+        "price1": 160,
+        "price2": 35,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "windows",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Elementos a 12v",
+        "price1": 120,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "electrical-installation12",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Bocana llenado",
+        "price1": 120,
+        "price2": 20,
+        "price3": 15,
+        "price4": 10,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "water-installation",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Patas neumática",
+        "price1": 195,
+        "price2": 60,
+        "price3": 45,
+        "price4": 35,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "caravan-suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Extensiones portamotos",
+        "price1": 195,
+        "price2": 60,
+        "price3": 45,
+        "price4": 35,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "caravan-suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "2 piezas",
+        "price1": 190,
+        "price2": 70,
+        "price3": 40,
+        "price4": 25,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "3 piezas",
+        "price1": 220,
+        "price2": 80,
+        "price3": 60,
+        "price4": 50,
+        "priceGapMod": 25,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Toldo",
+        "price1": 130,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Ballestas y/o gemelas y/o tacos",
+        "price1": 180,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Otros (tirantes, barras estabilizadoras, etc)",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Todo (muelles + ballestas + gemelas + trapecios)",
+        "price1": 195,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sólo separadores",
+        "price1": 110,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Llantas + neumáticos + separadores",
+        "price1": 130,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "wheels",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape + caja cambios",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución o adición de faros traseros",
+        "price1": 120,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Faros delanteros y traseros",
+        "price1": 140,
+        "price2": 40,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Vehículo posterior al año 98",
+        "price1": 130,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "hook",
+            "vehicle": "housing-vehicle"
+        }
+    },
+    {
+        "description": "",
+        "name": "Porta + luces",
+        "price1": 160,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "license-holder",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "2 piezas",
+        "price1": 180,
+        "price2": 70,
+        "price3": 35,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "3 piezas",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "4 o + piezas",
+        "price1": 240,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Muelle trasero",
+        "price1": 150,
+        "price2": 45,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "suspension",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Eliminación plazas desinstalando asideros y estribos",
+        "price1": 130,
+        "price2": 30,
+        "price3": 20,
+        "price4": 15,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motorbike-places",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Sustitución faros (+ de 3)",
+        "price1": 180,
+        "price2": 40,
+        "price3": 30,
+        "price4": 25,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "lights",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Motor + línea escape + caja cambios",
+        "price1": 210,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "motor",
+            "vehicle": "motorbike"
+        }
+    },
+    {
+        "description": "",
+        "name": "Snorkel",
+        "price1": 120,
+        "price2": 30,
+        "price3": 25,
+        "price4": 20,
+        "priceGapMod": 0,
+        "section": {
+            "description": "",
+            "name": "car-body",
+            "vehicle": "a-terrain"
+        }
+    }
+]
