@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Patch, Delete, Param, Body, NotFoundException } from '@nestjs/common';
+import { Controller, Get, Post, Patch, Delete, Param, Body } from '@nestjs/common';
 import { Work } from './work.entity';
 import { WorkService } from './work.service';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
@@ -19,11 +19,7 @@ export class WorkController {
   @ApiOperation({ summary: 'Obtiene un trabajo por su ID' })
   @ApiResponse({ status: 200, description: 'Trabajo encontrado', type: Work })
   async findOne(@Param('id') id: number): Promise<Work> {
-    const work = await this.workService.findWorkById(id);
-    if (!work) {
-      throw new NotFoundException('Work not found');
-    }
-    return work;
+    return this.workService.findWorkById(id);
   }
 
   @Get('vehicle/:name')

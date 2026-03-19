@@ -42,7 +42,7 @@ export class BudgetService {
   }
 
   async createBudget(budgetData: any, userId: number): Promise<Budget> {
-    let client;
+    let client: Client | undefined;
     if (budgetData.client.email) {
       client = await this.clientRepository.findOne({ where: { email: budgetData.client.email } });
     } else if (budgetData.client.phone) {
@@ -62,7 +62,6 @@ export class BudgetService {
       works.push(work);
     }
 
-    // Crear un nuevo presupuesto con los datos proporcionados
     const newBudget = this.budgetRepository.create({
       bulletinE12V: budgetData.bulletinE12V,
       bulletinE230V: budgetData.bulletinE230V,
@@ -70,7 +69,7 @@ export class BudgetService {
       certificate: budgetData.certificate,
       client: client,
       description: budgetData.description,
-      user: budgetData.user,
+      user: userId,
       vehicle: budgetData.vehicle,
       works: works,
       createdAt: new Date()
@@ -88,20 +87,15 @@ export class BudgetService {
 
 
   async removeBudget(id: number): Promise<void> {
-    const budget = await this.findBudgetById(id);
-    if (!budget) {
-      throw new NotFoundException('Budget not found');
-    }
-
-    budget.deletedAt = new Date();
-    await this.budgetRepository.save(budget);
+    await this.findBudgetById(id);
+    await this.budgetRepository.softDelete(id);
   }
 
 
 
   async restoreBudget(id: number): Promise<void> {
-    const restoredBudget = await this.budgetRepository.restore(id);
-    if (!restoredBudget) {
+    const result = await this.budgetRepository.restore(id);
+    if (!result.affected) {
       throw new NotFoundException('Budget not found');
     }
   }

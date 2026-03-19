@@ -29,7 +29,7 @@ export class Client {
   phone: string;
 
   @ApiProperty({example: 'Particular', description: 'Tipo de cliente'})
-  @Column({ enum: ['particular', 'empresa'] })
+  @Column({ type: 'enum', enum: ['particular', 'empresa'] })
   type: string;
 
 

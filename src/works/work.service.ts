@@ -1,4 +1,4 @@
-import { Inject, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { Work } from './work.entity';
 import { Section } from '../sections/section.entity';
@@ -8,7 +8,7 @@ export class WorkService {
   constructor(
     @Inject('WORK_REPOSITORY')
     private readonly workRepository: Repository<Work>,
-    @Inject('SECTION_REPOSITORY') 
+    @Inject('SECTION_REPOSITORY')
     private readonly sectionRepository: Repository<Section>
   ) {}
 
@@ -19,9 +19,9 @@ export class WorkService {
   }
 
   async findWorkById(id: number): Promise<Work> {
-    const work = await this.workRepository.findOne({ 
+    const work = await this.workRepository.findOne({
       where: { id },
-      relations: ['section','budget'] 
+      relations: ['section','budget']
   });
     if (!work) {
         throw new NotFoundException('Work not found');
@@ -52,32 +52,26 @@ export class WorkService {
 
         return this.workRepository.save(newWork);
     } else {
-        throw new NotFoundException('Section ID not provided');
+        throw new BadRequestException('Section ID not provided');
     }
 }
 
 async updateWork(id: number, updatedData: Partial<Work>): Promise<Work> {
-  const existingWork = await this.findWorkById(id); 
+  const existingWork = await this.findWorkById(id);
   const updatedWork = Object.assign(existingWork, updatedData);
   return this.workRepository.save(updatedWork);
 }
 
 
 async removeWork(id: number): Promise<void> {
-  const work = await this.findWorkById(id); 
-  if (!work) {
-    throw new NotFoundException('Work not found');
-  }
-  
-  work.deletedAt = new Date();
-  await this.workRepository.save(work);
+  await this.findWorkById(id);
+  await this.workRepository.softDelete(id);
 }
 
 
-
 async restoreWork(id: number): Promise<void> {
-  const restoredWork = await this.workRepository.restore(id);
-  if (!restoredWork) {
+  const result = await this.workRepository.restore(id);
+  if (!result.affected) {
     throw new NotFoundException('Work not found');
   }
 }

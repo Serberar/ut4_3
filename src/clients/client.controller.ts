@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { Client } from './client.entity';
 import { ClientService } from './client.service';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
@@ -10,7 +10,7 @@ export class ClientController {
 
   @Get()
   @ApiOperation({ summary: 'Obtiene todos los clientes' })
-  @ApiResponse({status: 200, description: 'Todos los clientes encontrados', type: Client})
+  @ApiResponse({status: 200, description: 'Todos los clientes encontrados', type: Client, isArray: true})
   async findAll(): Promise<Client[]> {
     return this.clientService.findAll();
   }

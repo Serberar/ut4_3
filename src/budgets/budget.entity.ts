@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, CreateDateColumn, UpdateDateColumn, DeleteDateColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, CreateDateColumn, DeleteDateColumn } from 'typeorm';
 import { Client } from '../clients/client.entity';
 import { Work } from '../works/work.entity';
 import { ApiProperty } from '@nestjs/swagger';
@@ -34,7 +34,7 @@ export class Budget {
   user: number;
 
   @ApiProperty({example: 'car', description: 'Tipo de vehículo al que está asociada la sección'})
-  @Column({ enum: ['all-terrain', 'car', 'motorbike', 'tow-vehicle'] })
+  @Column({ type: 'enum', enum: ['all-terrain', 'car', 'motorbike', 'tow-vehicle'] })
   vehicle: string;
 
   @ApiProperty({example: '2024-01-06 17:37:32', description: 'Fecha de creación del presupuesto'})
