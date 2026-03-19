@@ -9,15 +9,15 @@ export class BudgetController {
   constructor(private readonly budgetService: BudgetService) {}
 
   @Get()
-  @ApiOperation({ summary: 'Obtiene un presupuesto por su ID' })
-  @ApiResponse({ status: 200, description: 'Presupuesto encontrado', type: Budget })
+  @ApiOperation({ summary: 'Obtiene todos los presupuestos' })
+  @ApiResponse({ status: 200, description: 'Presupuestos encontrados', type: Budget, isArray: true })
   async findAll(): Promise<Budget[]> {
     return this.budgetService.findAllBudgets();
   }
 
   @Get(':id')
   @ApiOperation({ summary: 'Obtiene un presupuesto por ID' })
-  @ApiResponse({status: 200, description: 'Todos los presupuestos encontrados', type: Budget})
+  @ApiResponse({status: 200, description: 'Presupuesto encontrado', type: Budget})
   async findOne(@Param('id') id: number): Promise<Budget> {
     const budget = await this.budgetService.findBudgetById(id);
     if (!budget) {
