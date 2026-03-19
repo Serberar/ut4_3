@@ -8,12 +8,32 @@ Permite gestionar clientes, presupuestos, trabajos y secciones.
 - NestJS
 - TypeORM
 - MySQL
+- Docker
 - Swagger (OpenAPI)
 
 ## Instalación
 
 ```bash
 npm install
+```
+
+Requiere un archivo `.env` en la raíz con las siguientes variables:
+
+```
+DB_TYPE=mysql
+DB_HOST=localhost
+DB_PORT=3308
+DB_USERNAME=linkia
+DB_PASSWORD=linkia
+DB_DATABASE=linkia
+```
+
+## Base de datos
+
+La base de datos corre en Docker. Levantarla antes de arrancar la aplicación:
+
+```bash
+docker compose up -d
 ```
 
 ## Ejecución

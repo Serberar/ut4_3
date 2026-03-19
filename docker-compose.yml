@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: linkia
+      MYSQL_USER: linkia
+      MYSQL_PASSWORD: linkia
+    ports:
+      - '3308:3306'
